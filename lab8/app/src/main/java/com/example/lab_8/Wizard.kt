@@ -36,9 +36,9 @@ class Wizard(
     }
 
     fun train() {
-//        if (mana >= 5) {
-//            spellPower += 1
-//            mana -= 5
-//        }
+        if (mana >= 5) {
+            spellPower += 1
+            mana -= 5
+        }
     }
 }
