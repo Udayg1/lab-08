@@ -31,5 +31,14 @@ class Wizard(
         }
     }
 
-    fun restoreMana(amount: Int) { }
+    fun restoreMana(amount: Int) {
+        mana = minOf(100, mana + amount)
+    }
+
+    fun train() {
+//        if (mana >= 5) {
+//            spellPower += 1
+//            mana -= 5
+//        }
+    }
 }
